@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewprt" content="width=device-width, initial-scale=1.0">'
+    <link rel="stylesheet" href="index.css">
+    <title>Resume</title>
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About me</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section id="home">
+      <div class="main">
+        <h1 class="headings">I AM <br> Ntsika Ngilane</h1>
+        <button class="btn">
+          Request interview
+        </button>
+      </div>
+    </section>
+
+    <section id="about">
+      <h1 class="headings">ABOUT ME</h1>
+      <div id="pic">
+        <img src="ntsika.jpeg" alt="">
+        <div id="intro">
+		<h2>Ntsika Ngilane</h2>
+		  <p> I am an aspiring software engineer, currently doing a short course to recieve my certification, studying at <a href="https://www.codespace.co.za/">CODESPACE</a>, doing their fullstack course. I also will be going into animation and 3d animation, as well as game development.<br> Computers and their inner workings and games have always been a passion of mine and since I was young had always thought that coding was cool. As much as i know it will be a tough road, I'm willing to power through, until i reach my goals.<br>I am mostly self-taught but I am always willing to learn more from others.       
+        <h4>Skills</h4>
+		<ul>
+		<li>Fast Learner</li>
+		<li>Always willing to learn</li>
+		<li>Puntual</li>
+		<li>Hard working</li>
+		<li>
+		</div>
+      </div>
+    </section>
+	
+	<section id="Information">
+	<div id="information">
+	<h3> Skills </h3>
+	</section>
+
+    <section id="services">
+      <h1 class="headings">SERVICES</h1>
+       <div class="row">
+        <div class="box">
+        <img src="services.png" alt="">
+          <h1 class="headings">Website Design</h1>
+          <p>I am an aspiring software engineer, currently doing a short course to recieve my certification. </p>
+        </div>
+        <div class="box">
+        <img src="services.png" alt="">
+          <h1 class="headings">Basic Application Building</h1>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you a.</p>
+        </div>
+        <div class="box">
+        <img src="services.png" alt="">
+          <h1 class="headings">Basic Mobile App<br>Development<br>(Android/IOS</h1>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you a.</p>
+        </div>
+       </div>
+    </section>
+    
+    <section id="contact">
+      <h1 class="headings">CONTACT</h1>
+      <form action="" class="form">
+        <input type="text" name="name" class="input" placeholder="Enter Your Name Here">
+        <input type="email" name="email" class="input" placeholder="Enter Your Email Here">
+        <textarea name="msg" id="msg" cols="50" rows="25" placeholder="Enter Your Message Here"></textarea>
+        <input type="submit" value="SEND" id="send">
+      </form>
+    </section>
+	
+	<section class="footer">
+		<div class="social">
+		<ul>
+			<li><a href="https://www.instagram.com/notcalvinatall/"><img src="instagram.png"></a></li>
+			<li><a href="https://twitter.com/CallyWallyOwner"><img src="twitter.png"></a></li>
+			<li><a href="mailto:callywallyinc@gmail.com"><img src="gmail.png"></a></li>
+			<li><a href="https://wa.me/0027664046797"><img src="whatsapp.png"></a></li>
+			<a href="https://wa.me/0027664046797"><i class="fab fa-facebook-f"></i></a>
+			</ul>
+		</div>
+	</section>
+
+
+
+  </body>
+
+</html>
